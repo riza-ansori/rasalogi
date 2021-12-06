@@ -1,0 +1,186 @@
+/* 
+This css is only for templates created by the Rasa Logi team.
+author : RASA Logi team
+template name : Coffe shop 
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-weight: 600;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+
+section {
+    padding: 70px 0;
+}
+img {
+    max-width: 100%;
+}
+.accent {
+    border: 5px solid #fed040;
+    background: #fed040;
+    opacity: 1;
+    width: 50px;
+}
+.btn {
+    background: #20a35d;
+    padding: 8px 40px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #5d82c0;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.services-description {
+    padding: 10px 15px;
+}
+
+/* header */
+.logo img {
+    object-fit: contain;
+    max-height: 80px;
+}
+.nav-link{
+    color: #333;
+
+}
+
+h1.title-banner {
+    font-size: 48px;
+}
+.title-section {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.6em;
+}
+.sub-sections {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-gradient {
+    background-image: linear-gradient(180deg,#3cd1ff 0%,#1ca5ff 100%)!important;
+}
+.bg-yellow {
+    background: #fed040;
+}
+
+/* pricing module */
+.pricing-module {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 15px 15px 65px;
+    box-shadow: 0px 2px 18px 0px rgba(198,198,198, 0.3);
+    border-radius: 8px;
+}
+h3.title-pricing {
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+}
+.wrap-price {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.price {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+span.currency {
+    position: relative;
+    top: -7px;
+    font-size: 14px;
+}
+span.frequency {
+    font-size: 14px;
+}
+.pricing-content li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.btn-pricing {
+    position: absolute;
+    width: calc(100% - 30px);
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+    background: #ffce45;
+    max-width: 220px;
+}
+.btn.btn-red {
+    background: #dd5244;
+}
+.ribbon-wrapper {
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 117px;
+}
+.best-seller {
+    background-color: #dd5244;
+    color: #fff;
+    left: 29px;
+    padding: 7px 0;
+    position: relative;
+    text-align: center;
+    top: 11px;
+    transform: rotate(45deg);
+    width: 127px;
+    font-size: 11px;
+}
+.text-blue {
+    color: #5d82c0;
+}
+
+
+/* footer */
+footer#footer {
+    position: relative;
+}
+footer#footer:before {
+    content: '';
+    position: absolute;
+    background-image: url(../mentahan-gambar/logo.jpeg);
+    opacity: .02;
+    background-repeat: repeat;
+    background-size: 200px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.logo-footer img {
+    max-width: 200px;
+}
+.tagline-footer, #copyright {
+    font-size: 12px;
+}
+.list-footer li a {
+    font-size: 14px;
+}
