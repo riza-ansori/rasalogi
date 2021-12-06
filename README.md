@@ -1,0 +1,2 @@
+# rasalogi
+template project rasalogi
