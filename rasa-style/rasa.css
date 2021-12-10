@@ -184,3 +184,24 @@ footer#footer:before {
 .list-footer li a {
     font-size: 14px;
 }
+.card-template {
+    border: none;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 15px;
+}
+.card-template h4 {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        justify-content: center;
+    }
+    .section-banner .img-wrapper {
+        margin-top: 32px;
+    }
+}
